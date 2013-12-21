@@ -1,0 +1,182 @@
+(pcb "C:\Users\tom\Documents\emontx-mini\emontx-mini.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(2013-07-07 BZR 4022)-stable")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type mixed)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type power)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (rect pcb 34288.7 -15557.5 86969.6 -44775.1)
+    )
+    (via "Via[0-1]_889:635_um" "Via[0-1]_889:0_um")
+    (rule
+      (width 254)
+      (clearance 254.1)
+      (clearance 254.1 (type default_smd))
+      (clearance 63.5 (type smd_smd))
+    )
+  )
+  (placement
+    (component "SIL-2"
+      (place P1 38100 -22860 front 90 (PN VIN))
+      (place P2 38100 -29210 front 90 (PN ADC))
+    )
+    (component R3
+      (place R5 76200 -20320 front 90 (PN 33R))
+      (place R6 71120 -20320 front 270 (PN 470K))
+      (place R7 73660 -20320 front 90 (PN 470K))
+      (place R1 48260 -20320 front 270 (PN 100K))
+      (place R2 50800 -20320 front 90 (PN 10K))
+      (place R3 55880 -20320 front 270 (PN 470K))
+      (place R4 53340 -20320 front 90 (PN 470K))
+    )
+    (component C1V8
+      (place C1 62230 -20320 front 90 (PN 10uF))
+      (place C2 82550 -20320 front 0 (PN 10uF))
+    )
+    (component BARREL_JACK
+      (place K1 54610 -36830 front 90 (PN "9V AC"))
+    )
+    (component 3.5MM_JACK
+      (place P3 78740 -30480 front 0 (PN CT1))
+    )
+  )
+  (library
+    (image "SIL-2"
+      (outline (path signal 304.8  -2540 -1270  -2540 1270))
+      (outline (path signal 304.8  -2540 1270  2540 1270))
+      (outline (path signal 304.8  2540 1270  2540 -1270))
+      (outline (path signal 304.8  2540 -1270  -2540 -1270))
+      (pin Rect[A]Pad_1397x1397_um 1 -1270 0)
+      (pin Round[A]Pad_1397_um 2 1270 0)
+    )
+    (image R3
+      (outline (path signal 203.2  -3810 0  -3302 0))
+      (outline (path signal 203.2  3810 0  3302 0))
+      (outline (path signal 203.2  3302 0  3302 1016))
+      (outline (path signal 203.2  3302 1016  -3302 1016))
+      (outline (path signal 203.2  -3302 1016  -3302 -1016))
+      (outline (path signal 203.2  -3302 -1016  3302 -1016))
+      (outline (path signal 203.2  3302 -1016  3302 0))
+      (outline (path signal 203.2  -3302 508  -2794 1016))
+      (pin Round[A]Pad_1397_um 1 -3810 0)
+      (pin Round[A]Pad_1397_um 2 3810 0)
+    )
+    (image C1V8
+      (outline (path signal 203.2  4064 0  3865.09 -1255.85  3287.84 -2388.76  2388.76 -3287.84
+            1255.85 -3865.09  0 -4064  -1255.85 -3865.09  -2388.76 -3287.84
+            -3287.84 -2388.76  -3865.09 -1255.85  -4064 0  -3865.09 1255.85
+            -3287.84 2388.76  -2388.76 3287.84  -1255.85 3865.09  0 4064
+            1255.85 3865.09  2388.76 3287.84  3287.84 2388.76  3865.09 1255.85))
+      (pin Rect[A]Pad_1651x1651_um 1 -1270 0)
+      (pin Round[A]Pad_1651_um 2 1270 0)
+    )
+    (image BARREL_JACK
+      (outline (path signal 381  -4000.5 4500.88  -4000.5 -4500.88))
+      (outline (path signal 381  -7500.62 4500.88  -7500.62 -4500.88))
+      (outline (path signal 381  -7500.62 -4500.88  7000.24 -4500.88))
+      (outline (path signal 381  7000.24 -4500.88  7000.24 4500.88))
+      (outline (path signal 381  7000.24 4500.88  -7500.62 4500.88))
+      (pin Rect[A]Pad_3500.12x3500.12_um 1 6200.14 0)
+      (pin Rect[A]Pad_3500.12x3500.12_um 2 200.66 0)
+      (pin Rect[A]Pad_3500.12x3500.12_um 3 3200.4 -4699)
+    )
+    (image 3.5MM_JACK
+      (pin Round[A]Pad_1500_um 1 -5080 -2540)
+      (pin Round[A]Pad_1500_um 2 -2540 -2540)
+      (pin Round[A]Pad_1500_um 3 2540 -2540)
+      (pin Round[A]Pad_1500_um 4 5080 -2540)
+      (pin Round[A]Pad_1500_um 5 0 -7620)
+    )
+    (padstack Round[A]Pad_1397_um
+      (shape (circle F.Cu 1397))
+      (shape (circle B.Cu 1397))
+      (attach off)
+    )
+    (padstack Round[A]Pad_1500_um
+      (shape (circle F.Cu 1500))
+      (shape (circle B.Cu 1500))
+      (attach off)
+    )
+    (padstack Round[A]Pad_1651_um
+      (shape (circle F.Cu 1651))
+      (shape (circle B.Cu 1651))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_3500.12x3500.12_um
+      (shape (rect F.Cu -1750.06 -1750.06 1750.06 1750.06))
+      (shape (rect B.Cu -1750.06 -1750.06 1750.06 1750.06))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1397x1397_um
+      (shape (rect F.Cu -698.5 -698.5 698.5 698.5))
+      (shape (rect B.Cu -698.5 -698.5 698.5 698.5))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1651x1651_um
+      (shape (rect F.Cu -825.5 -825.5 825.5 825.5))
+      (shape (rect B.Cu -825.5 -825.5 825.5 825.5))
+      (attach off)
+    )
+    (padstack "Via[0-1]_889:635_um"
+      (shape (circle F.Cu 889))
+      (shape (circle B.Cu 889))
+      (attach off)
+    )
+    (padstack "Via[0-1]_889:0_um"
+      (shape (circle F.Cu 889))
+      (shape (circle B.Cu 889))
+      (attach off)
+    )
+  )
+  (network
+    (net "N-000001"
+      (pins P1-1 R6-1 R3-1)
+    )
+    (net "N-0000010"
+      (pins P1-2 R7-2 R4-2 C1-2 C2-2)
+    )
+    (net "N-000002"
+      (pins R1-2 K1-1)
+    )
+    (net "N-000006"
+      (pins R5-1 R6-2 R7-1 C2-1 P3-5)
+    )
+    (net "N-000007"
+      (pins P2-2 R5-2 P3-1 P3-3)
+    )
+    (net "N-000008"
+      (pins P2-1 R1-1 R2-1)
+    )
+    (net "N-000009"
+      (pins R2-2 R3-2 R4-1 C1-1 K1-3)
+    )
+    (class kicad_default "" "N-000001" "N-0000010" "N-000002" "N-000006" "N-000007"
+      "N-000008" "N-000009"
+      (circuit
+        (use_via Via[0-1]_889:635_um)
+      )
+      (rule
+        (width 254)
+        (clearance 254.1)
+      )
+    )
+  )
+  (wiring
+  )
+)

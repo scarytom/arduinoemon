@@ -1,0 +1,171 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 30/11/2013 17:22:50
+
+BeginCmp
+TimeStamp = /5297A0B8;
+Reference = C1;
+ValeurCmp = 10uF;
+IdModule  = C1V8;
+EndCmp
+
+BeginCmp
+TimeStamp = /5297A0D6;
+Reference = C2;
+ValeurCmp = 10uF;
+IdModule  = C1V8;
+EndCmp
+
+BeginCmp
+TimeStamp = /529A1CBC;
+Reference = JP1;
+ValeurCmp = LINK;
+IdModule  = JUMP15;
+EndCmp
+
+BeginCmp
+TimeStamp = /5297A059;
+Reference = K1;
+ValeurCmp = 9V AC;
+IdModule  = BARREL_JACK;
+EndCmp
+
+BeginCmp
+TimeStamp = /5299D189;
+Reference = K2;
+ValeurCmp = DIG567;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5297A259;
+Reference = P1;
+ValeurCmp = VIN;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5297A268;
+Reference = P2;
+ValeurCmp = ADC;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5297A083;
+Reference = P3;
+ValeurCmp = CT1;
+IdModule  = 3.5MM_JACK;
+EndCmp
+
+BeginCmp
+TimeStamp = /5299D5B1;
+Reference = P4;
+ValeurCmp = TRI_LED;
+IdModule  = SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /5299D5A2;
+Reference = P5;
+ValeurCmp = BUT1;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5299D19C;
+Reference = P6;
+ValeurCmp = DIG89;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /529A1892;
+Reference = P7;
+ValeurCmp = BUT2;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5297A139;
+Reference = R1;
+ValeurCmp = 100K;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5297A148;
+Reference = R2;
+ValeurCmp = 10K;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5297A157;
+Reference = R3;
+ValeurCmp = 470K;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5297A166;
+Reference = R4;
+ValeurCmp = 470K;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5297A10C;
+Reference = R5;
+ValeurCmp = 33R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5297A11B;
+Reference = R6;
+ValeurCmp = 470K;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5297A12A;
+Reference = R7;
+ValeurCmp = 470K;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5299D2B7;
+Reference = R8;
+ValeurCmp = 270R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5299D2C6;
+Reference = R9;
+ValeurCmp = 270R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5299D2D5;
+Reference = R10;
+ValeurCmp = 270R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5299D2E4;
+Reference = R11;
+ValeurCmp = 10K;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /529A18A6;
+Reference = R12;
+ValeurCmp = 10K;
+IdModule  = R3;
+EndCmp
+
+EndListe
